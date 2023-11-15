@@ -1,0 +1,37 @@
+2023.05.10 14:08:48 INFO  Started: Metals version 0.11.12 in workspace '/Users/iyd-zom/dev/practice' for client Visual Studio Code 1.70.2.[0m
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/iyd-zom/dev/practice/.metals/metals (H2 2.1)
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.007s)
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 10, 2023 2:08:48 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.024s)
+2023.05.10 14:08:48 INFO  time: initialize in 0.32s[0m
+2023.05.10 14:08:49 WARN  Build server is not auto-connectable.[0m
+2023.05.10 14:08:49 WARN  no build tool detected in workspace '/Users/iyd-zom/dev/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.05.10 14:09:27 INFO  [0m
+2023.05.10 14:09:27 INFO  Template applied in /Users/iyd-zom/dev/practice/scala/./learn[0m
+2023.05.10 14:09:27 INFO  [0m
+2023.05.10 14:09:27 INFO  time: ran 'giter8.Giter8' in 5.4s[0m
+2023.05.10 14:09:37 INFO  Shutting down server[0m
+2023.05.10 14:09:37 INFO  shutting down Metals[0m
+2023.05.10 14:09:37 INFO  Exiting server[0m

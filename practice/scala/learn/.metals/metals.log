@@ -1,0 +1,327 @@
+2023.05.10 14:09:45 INFO  Started: Metals version 0.11.12 in workspace '/Users/iyd-zom/dev/practice/scala/learn' for client Visual Studio Code 1.70.2.[0m
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/iyd-zom/dev/practice/scala/learn/.metals/metals (H2 2.1)
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.007s)
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 10, 2023 2:09:45 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.024s)
+2023.05.10 14:09:46 INFO  time: initialize in 0.33s[0m
+2023.05.10 14:09:47 WARN  Build server is not auto-connectable.[0m
+2023.05.10 14:10:00 WARN  no build target for: /Users/iyd-zom/dev/practice/scala/learn/src/main/scala/Main.scala[0m
+2023.05.10 14:10:06 INFO  no build target found for /Users/iyd-zom/dev/practice/scala/learn/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 10, 2023 2:10:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 10, 2023 2:10:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.10 14:10:18 WARN  no build target for: /Users/iyd-zom/dev/practice/scala/learn/src/main/scala/Main.scala[0m
+2023.05.10 14:10:28 INFO  running '/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9t/nwqr_0ws67zbwwf4zmdxzyc00000gn/T/metals13069456385291375723/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.05.10 14:10:29 ERROR [info] [launcher] getting org.scala-sbt sbt 1.8.2  (this may take some time)...[0m
+2023.05.10 14:10:29 WARN  no build target for: /Users/iyd-zom/dev/practice/scala/learn/project/metals.sbt[0m
+2023.05.10 14:10:29 WARN  no build target for: /Users/iyd-zom/dev/practice/scala/learn/project/project/metals.sbt[0m
+2023.05.10 14:10:29 INFO  skipping build import with status 'Dismissed'[0m
+2023.05.10 14:10:35 ERROR [info] [launcher] getting Scala 2.12.17 (for sbt)...[0m
+2023.05.10 14:10:36 INFO  [info] welcome to sbt 1.8.2 (Azul Systems, Inc. Java 11.0.15)[0m
+2023.05.10 14:10:36 INFO  [info] loading global plugins from /Users/iyd-zom/.sbt/1.0/plugins[0m
+2023.05.10 14:10:38 INFO  [info] loading settings for project learn-build-build from metals.sbt ...[0m
+2023.05.10 14:10:38 INFO  [info] loading project definition from /Users/iyd-zom/dev/practice/scala/learn/project/project[0m
+2023.05.10 14:10:38 INFO  [info] loading settings for project learn-build from metals.sbt ...[0m
+2023.05.10 14:10:38 INFO  [info] loading project definition from /Users/iyd-zom/dev/practice/scala/learn/project[0m
+2023.05.10 14:10:41 INFO  [success] Generated .bloop/learn-build.json[0m
+2023.05.10 14:10:41 INFO  [success] Total time: 2 s, completed 10-May-2023, 2:10:41 PM[0m
+2023.05.10 14:10:41 INFO  [info] loading settings for project learn from build.sbt ...[0m
+2023.05.10 14:10:41 INFO  [info] set current project to hello-world (in build file:/Users/iyd-zom/dev/practice/scala/learn/)[0m
+2023.05.10 14:10:44 INFO  [success] Generated .bloop/learn.json[0m
+2023.05.10 14:10:44 INFO  [success] Generated .bloop/learn-test.json[0m
+2023.05.10 14:10:44 INFO  [success] Total time: 2 s, completed 10-May-2023, 2:10:44 PM[0m
+2023.05.10 14:10:44 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2023.05.10 14:10:44 INFO  Attempting to connect to the build server...[0m
+2023.05.10 14:10:44 INFO  Setting up current java home /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home in /Users/iyd-zom/.bloop/bloop.json[0m
+2023.05.10 14:10:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.05.10 14:10:54 INFO  Attempting to connect to the build server...[0m
+2023.05.10 14:10:54 INFO  Bloop uses /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home defined at /Users/iyd-zom/.bloop/bloop.json[0m
+2023.05.10 14:10:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/project/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.05.10 14:10:56 INFO  time: Connected to build server in 12s[0m
+2023.05.10 14:10:56 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.05.10 14:11:01 INFO  time: indexed workspace in 4.93s[0m
+2023.05.10 14:11:02 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:11:08 INFO  time: compiled learn in 6.18s[0m
+2023.05.10 14:11:48 INFO  Shutting down server[0m
+2023.05.10 14:11:48 INFO  shutting down Metals[0m
+2023.05.10 14:11:48 INFO  Shut down connection with build server.[0m
+2023.05.10 14:11:48 INFO  Shut down connection with build server.[0m
+2023.05.10 14:11:48 INFO  Exiting server[0m
+2023.05.10 14:11:56 INFO  Started: Metals version 0.11.12 in workspace '/Users/iyd-zom/dev/practice/scala/learn' for client Visual Studio Code 1.70.2.[0m
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/iyd-zom/dev/practice/scala/learn/.metals/metals (H2 2.1)
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.009s)
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 10, 2023 2:11:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.10 14:11:56 INFO  time: initialize in 0.42s[0m
+2023.05.10 14:11:57 INFO  Attempting to connect to the build server...[0m
+2023.05.10 14:11:57 INFO  Bloop uses /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home defined at /Users/iyd-zom/.bloop/bloop.json[0m
+2023.05.10 14:11:57 INFO  skipping build import with status 'Installed'[0m
+May 10, 2023 2:11:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.05.10 14:11:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.05.10 14:11:57 INFO  Attempting to connect to the build server...[0m
+2023.05.10 14:11:57 INFO  Bloop uses /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home defined at /Users/iyd-zom/.bloop/bloop.json[0m
+2023.05.10 14:11:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/project/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.05.10 14:11:57 INFO  time: Connected to build server in 0.36s[0m
+2023.05.10 14:11:57 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.05.10 14:11:59 INFO  time: indexed workspace in 1.76s[0m
+2023.05.10 14:12:42 INFO  time: code lens generation in 1.91s[0m
+2023.05.10 14:12:42 INFO  time: code lens generation in 1.51s[0m
+2023.05.10 14:13:26 INFO  Deduplicating compilation of learn from bsp client 'Metals 0.11.12' (since 1m 28.485s)[0m
+2023.05.10 14:13:26 INFO  Deduplicating compilation of learn from bsp client 'Metals 0.11.12' (since 1m 28.641s)[0m
+2023.05.10 14:13:28 INFO  Configured debugger context in 1 second[0m
+2023.05.10 14:13:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/dap-server.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.05.10 14:13:28 INFO  Configured debugger context in 513 milliseconds[0m
+2023.05.10 14:13:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/dap-server.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.05.10 14:13:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/dap-client.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.05.10 14:13:29 INFO  Starting debug proxy for [Main][0m
+2023.05.10 14:13:28 INFO  Trying to attach to remote debuggee VM localhost:61266 .[0m
+2023.05.10 14:13:28 INFO  Attaching to debuggee VM succeeded.[0m
+2023.05.10 14:13:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/dap-client.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.05.10 14:13:29 INFO  Starting debug proxy for [Main][0m
+2023.05.10 14:13:29 INFO  Trying to attach to remote debuggee VM localhost:61269 .[0m
+2023.05.10 14:13:29 INFO  Attaching to debuggee VM succeeded.[0m
+2023.05.10 14:13:29 INFO  Canceling debug proxy for [Main][0m
+2023.05.10 14:13:29 INFO  Closing debug server tcp://0.0.0.0:61265[0m
+2023.05.10 14:13:29 INFO  Canceling debug proxy for [Main][0m
+2023.05.10 14:13:29 INFO  Closing debug server tcp://0.0.0.0:61261[0m
+May 10, 2023 2:13:30 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.05.10 14:14:58 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:14:58 INFO  time: compiled learn in 0.53s[0m
+2023.05.10 14:15:02 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:15:02 INFO  time: compiled learn in 0.4s[0m
+2023.05.10 14:15:24 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:15:24 INFO  time: compiled learn in 0.13s[0m
+2023.05.10 14:15:31 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:15:31 INFO  time: compiled learn in 45ms[0m
+2023.05.10 14:15:40 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:15:40 INFO  time: compiled learn in 0.39s[0m
+2023.05.10 14:16:16 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:16:16 INFO  time: compiled learn in 0.13s[0m
+2023.05.10 14:16:18 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:16:18 INFO  time: compiled learn in 0.38s[0m
+2023.05.10 14:16:37 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:16:37 INFO  time: compiled learn in 0.43s[0m
+2023.05.10 14:16:47 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:16:47 INFO  time: compiled learn in 0.45s[0m
+2023.05.10 14:16:55 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:16:55 INFO  time: compiled learn in 0.42s[0m
+2023.05.10 14:17:06 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:17:06 INFO  time: compiled learn in 0.45s[0m
+2023.05.10 14:17:30 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:17:30 INFO  time: compiled learn in 0.46s[0m
+2023.05.10 14:18:08 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:18:08 INFO  time: compiled learn in 0.45s[0m
+2023.05.10 14:18:13 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:18:13 INFO  time: compiled learn in 0.77s[0m
+May 10, 2023 2:18:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.05.10 14:18:36 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:18:36 INFO  time: compiled learn in 0.44s[0m
+2023.05.10 14:18:49 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:18:49 INFO  time: compiled learn in 0.37s[0m
+2023.05.10 14:19:14 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:19:14 INFO  time: compiled learn in 0.39s[0m
+2023.05.10 14:20:12 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:20:12 INFO  time: compiled learn in 0.49s[0m
+2023.05.10 14:21:12 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:21:12 INFO  time: compiled learn in 0.43s[0m
+2023.05.10 14:22:12 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:22:12 INFO  time: compiled learn in 0.56s[0m
+2023.05.10 14:22:18 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:22:18 INFO  time: compiled learn in 0.4s[0m
+2023.05.10 14:22:53 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:22:53 INFO  time: compiled learn in 0.42s[0m
+2023.05.10 14:23:40 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:23:40 INFO  time: compiled learn in 0.53s[0m
+2023.05.10 14:24:19 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:24:19 INFO  time: compiled learn in 0.49s[0m
+May 10, 2023 2:54:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+May 10, 2023 2:54:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2043
+2023.05.10 14:54:33 INFO  compiling learn (1 scala source)[0m
+2023.05.10 14:54:33 INFO  time: compiled learn in 0.62s[0m
+2023.05.11 12:14:52 INFO  compiling learn (1 scala source)[0m
+2023.05.11 12:14:54 INFO  time: compiled learn in 1.49s[0m
+2023.05.11 12:15:52 INFO  compiling learn (1 scala source)[0m
+2023.05.11 12:15:52 WARN  Could not load snapshot text for /Users/iyd-zom/dev/practice/scala/learn/src/main/scala/Main.scala[0m
+2023.05.11 12:15:52 INFO  time: compiled learn in 0.91s[0m
+2023.05.11 12:20:12 INFO  compiling learn (1 scala source)[0m
+May 11, 2023 12:20:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:924)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:340)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:341)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:475)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:419)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1859)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.05.11 12:20:12 INFO  time: compiled learn in 0.95s[0m
+May 11, 2023 5:48:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.16 09:34:29 INFO  Shutting down server[0m
+2023.05.16 09:34:29 INFO  shutting down Metals[0m
+2023.05.16 09:34:30 INFO  Shut down connection with build server.[0m
+2023.05.16 09:34:30 INFO  Shut down connection with build server.[0m
+2023.05.29 11:42:39 INFO  Started: Metals version 0.11.12 in workspace '/Users/iyd-zom/dev/practice/scala/learn' for client Visual Studio Code 1.70.2.
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/iyd-zom/dev/practice/scala/learn/.metals/metals (H2 2.1)
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 29, 2023 11:42:39 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.29 11:42:39 INFO  time: initialize in 0.52s
+2023.05.29 11:42:41 INFO  Attempting to connect to the build server...
+2023.05.29 11:42:41 INFO  Bloop uses /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home defined at /Users/iyd-zom/.bloop/bloop.json
+2023.05.29 11:42:41 INFO  skipping build import with status 'Installed'
+2023.05.29 11:42:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.05.29 11:42:41 INFO  Attempting to connect to the build server...
+2023.05.29 11:42:41 INFO  Bloop uses /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home defined at /Users/iyd-zom/.bloop/bloop.json
+2023.05.29 11:42:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iyd-zom/dev/practice/scala/learn/project/.metals/bsp.trace.json or /Users/iyd-zom/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.05.29 11:42:41 INFO  time: Connected to build server in 0.94s
+2023.05.29 11:42:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.29 11:42:42 INFO  time: Imported build in 0.15s
+2023.05.29 11:42:47 INFO  time: indexed workspace in 5.07s
+2023.05.29 13:22:28 INFO  Shutting down server
+2023.05.29 13:22:28 INFO  shutting down Metals
+2023.05.29 13:22:28 INFO  Shut down connection with build server.
+2023.05.29 13:22:28 INFO  Shut down connection with build server.
+2023.05.29 13:22:28 INFO  Exiting server
